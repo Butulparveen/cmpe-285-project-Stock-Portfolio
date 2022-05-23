@@ -1,1 +1,39 @@
-
+.login-page-container{
+  height: 100%;
+  background: white;
+  .form-container{
+    display: inline-block;
+    width: 380px;
+    position: absolute;
+    top:20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    .title{
+      width: 100%;
+      text-align: center;
+    }
+    .form-input{
+      width: 100%;
+      margin: 10px 0;
+      .fn{
+        display: inline-block;
+        width: calc(50% - 10px);
+        margin-right: 20px;
+      }
+      .ln{
+        width: calc(50% - 10px);
+        display: inline-block;
+      }
+    }
+    .form-submit{
+      width: 100%;
+      margin: 10px 0;
+      background: rgb(37, 81, 3);
+    }
+    .form-change{
+      color: rgb(37, 81, 3);;
+    }
+  }
+}

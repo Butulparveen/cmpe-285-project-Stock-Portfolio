@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+  body {
+    height: 100%;
+    margin: 0;
+    background: #F5F6F8;
+    #app{
+      height: 100%;
+      .container{
+        height: 100%;
+        .top-app-bar {
+          background-color: rgb(37, 81, 3);
+
+          h6.title { 
+            flex-grow: 1;
+            margin: 10px;
+          }
+
+          .auth-toolbar {
+            position: absolute;
+            right: 20px;
+          }
+        }
+        .home-page{
+          height: calc(100% - 84px);
+          .input-form{
+            height: 1140px;
+            padding: 10px;
+            background: #FFFFFF;
+            display: inline-block;
+            vertical-align: top;
+            width: 350px;
+            .name{
+              margin-top: 50px;
+            }
+            .title{
+              margin-bottom: 30px;
+            }
+            .stock-input-form{
+              .form-element{
+                margin-top: 10px;
+                width: 100%;
+                &.submit-button{
+                  margin-top: 0px;
+                  background: rgb(37, 81, 3);
+                  &.Mui-disabled{
+                    background: #E0E0E0
+                  }
+                  .MuiCircularProgress-root{
+                    color: rgb(37, 81, 3);
+                    position: absolute;
+                  }
+                }
+              }
+
+              .fix-width{
+                height: 30px;
+                margin-top: 10px;
+              }
+            }
+          }
+          .reports{
+            display: inline-block;
+            vertical-align: top;
+            width: calc(100% - 370px);
+            .report-container {
+              width: calc(100% - 80px);
+              padding: 40px 40px 0 40px;
+              .table-container {
+                display: inline-block;
+                width: 100%;
+                vertical-align: top;
+                .title {
+                  padding: 20px 10px;
+                  display: inline-block;
+                  font-size: 20px;
+                }
+                .table-parent{
+                  padding: 10px;
+                  .allocation-table {
+                    th {
+                      background: #F5F6F8;
+                    }
+                  }
+                }
+              }
+              .pie-paper{
+                display: inline-block;
+                margin: 40px 40px 0 0;
+                width: 370px;
+                height: 480px;
+                vertical-align: top;
+                .title {
+                  padding: 20px 10px;
+                  display: inline-block;
+                  font-size: 20px;
+                }
+              }
+              .chart-paper{
+                display: inline-block;
+                margin: 40px 0;
+                width: calc(100% - 410px);
+                vertical-align: top;
+                .title {
+                  padding: 20px 10px;
+                  display: inline-block;
+                  font-size: 20px;
+                }
+              }
+              .welcome-container{
+                display: inline-block;
+                width: 50%;
+                vertical-align: top;
+                .title {
+                  padding: 20px 20px;
+                  display: inline-block;
+                  font-size: 20px;
+                }
+                .welcome-para1{
+                  padding: 20px 20px 0 20px;
+                }
+                .welcome-para2{
+                  padding: 10px 30px 20px 20px;
+                  text-align: justify;
+                }
+              }
+              .stock-widget-container{
+                display: inline-block;
+                width: 100%;
+                vertical-align: top;
+                //&.widget1{
+                //  margin-right: 20px;
+                //}
+                .title {
+                  padding: 20px 20px;
+                  display: inline-block;
+                  font-size: 20px;
+                }
+                .stock-widget-container{
+                  height: 500px;
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
